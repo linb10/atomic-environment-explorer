@@ -1,0 +1,19 @@
+# Atomic Environment Explorer: Streamlit settings (read when launched from the project folder).
+[server]
+headless = true
+maxUploadSize = 100
+port = 8501
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
+showErrorDetails = "none"
+
+[theme]
+base = "light"
+primaryColor = "#e4572e"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f4f6"
+textColor = "#1f2937"

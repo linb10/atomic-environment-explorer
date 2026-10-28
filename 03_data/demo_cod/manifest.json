@@ -1,0 +1,47 @@
+{
+  "description": "Offline demo structures downloaded from the Crystallography Open Database. Raw files, unmodified.",
+  "license": "CC0 1.0 public domain dedication (stated on https://www.crystallography.net/cod/, checked 2026-10-18). Please acknowledge the original authors (see each CIF's _publ_author_name / _journal fields).",
+  "citation": "Gražulis, S. et al. (2012). Nucleic Acids Research 40, D420-D427.",
+  "files": [
+    {
+      "file": "9008468.cif",
+      "cod_id": "9008468",
+      "description": "Copper, Fm-3m (fcc)",
+      "url": "https://www.crystallography.net/cod/9008468.cif",
+      "retrieved_utc": "2026-10-18",
+      "sha256": "0804d4ddcc3748a4cf355fc84df96f01a8a0d905c37430906367c2d846031830"
+    },
+    {
+      "file": "9008506.cif",
+      "cod_id": "9008506",
+      "description": "Magnesium, P63/mmc (hcp)",
+      "url": "https://www.crystallography.net/cod/9008506.cif",
+      "retrieved_utc": "2026-10-18",
+      "sha256": "22ae81b993c5f0ce2b81952fffd04747306ab8d182db4320a227d31101fc2c3f"
+    },
+    {
+      "file": "9008558.cif",
+      "cod_id": "9008558",
+      "description": "Tungsten, Im-3m (bcc); nearest-12 shell is tied",
+      "url": "https://www.crystallography.net/cod/9008558.cif",
+      "retrieved_utc": "2026-10-18",
+      "sha256": "b72a99a172b83e2ea0986ce7c8947647806ae1bca5ccb31a3693ebe9df3e18ab"
+    },
+    {
+      "file": "1524810.cif",
+      "cod_id": "1524810",
+      "description": "MgCu2 Laves phase, Fd-3m",
+      "url": "https://www.crystallography.net/cod/1524810.cif",
+      "retrieved_utc": "2026-10-18",
+      "sha256": "71d00d65c2db6d9c3f990e8bed7fafa30a5e75f14620528befbf37b5b90416d2"
+    },
+    {
+      "file": "1000041.cif",
+      "cod_id": "1000041",
+      "description": "NaCl rock salt, Fm-3m; CN6",
+      "url": "https://www.crystallography.net/cod/1000041.cif",
+      "retrieved_utc": "2026-10-18",
+      "sha256": "02d4f4fa315f7b97147256118acc7f9f20190d7246c3ea7209cfb8bd5d6e1fed"
+    }
+  ]
+}

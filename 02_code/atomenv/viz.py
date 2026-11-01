@@ -227,7 +227,7 @@ def _center_trace(analysis: SiteAnalysis, options: DisplayOptions) -> go.Scatter
         hovertext=[f"Center {analysis.center.display_label} ({species_text(center_species)})"],
         hoverinfo="text", name=f"Center: {analysis.center.display_label}",
         marker=dict(size=_marker_size(center_species, options) * 1.15, color=color,
-                    symbol="diamond" if options.s["center"] else "circle",
+                    symbol="circle",
                     line=dict(color=options.s["outline"], width=3), opacity=1.0),
     )
 
@@ -416,7 +416,7 @@ def plane_map_figure(analysis: SiteAnalysis, ext: PlaneExtension, options: Displ
     fig.add_trace(go.Scatter(x=[0], y=[0], mode="markers", name=f"Center {analysis.center.display_label}",
                              marker=dict(size=_marker_size(center_species, options, 15),
                                          color=s["center"] or species_color(center_species, options),
-                                         symbol="diamond", line=dict(color=s["outline"], width=2))))
+                                         symbol="circle", line=dict(color=s["outline"], width=2))))
     fg = "#e5e7eb" if dark else "#111827"
     grid = "#334155" if dark else "#eef2f7"
     fig.update_layout(height=options.height, margin=dict(l=10, r=10, t=40, b=10),

@@ -1,4 +1,4 @@
-"""Finding and choosing CIF files, so nothing has to be typed into the code."""
+"""Finding and choosing CIF files."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ import sys
 import webbrowser
 
 
-# Folders that never hold input data.
+# Folders without input data.
 _SKIPPED_FOLDERS = {".venv", "04_results", "macos_metadata", "__pycache__", ".git", ".ipynb_checkpoints"}
 
 
